@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#layout {
+    min-height: 100vh;
+    display: flex;
+}
+
+.form-section {
+    width: 60%;
+    height: 100vh;
+    padding: 40px;
+}
+
+.image-section {
+    background: url(https://i.postimg.cc/526FPxcb/image.jpgv);
+    width: 40%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+  
+}
+
+.logo-section {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.form-row .input-box {
+    width: 48%;
+}
+
+.form-row .input-box input[type='text'], .form-row .input-box select {
+    width: 100%;
+    height: 40px;
+    padding: 0 10px;
+    border: 2px solid black;
+}
+
+.pick-circle {
+    width: 100%;
+    height: 40px;
+    padding: 10px 0px;
+    display: flexbox;
+}
+
+.button-section {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.button-section button {
+    background-color: blue;
+    padding: 8px 40px;
+    border: 1px solid blue;
+    border-radius: 10px 0 10px 0;
+    color: white;
+}
+
+.form-row .textarea-section {
+    width: 100%;
+}
+
+.form-row .textarea-section textarea {
+    width: 100%;
+    border: 2px solid black;
+}
+
+.image-section h1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    padding: 110px;   
+}
+
+.form-box h1 {
+    padding: 7px;
+}
