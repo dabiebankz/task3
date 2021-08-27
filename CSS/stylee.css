@@ -16,13 +16,13 @@
 }
 
 .image-section {
-    background: url(https://i.postimg.cc/526FPxcb/image.jpgv);
-    width: 40%;
-    height: 100vh;
-    background-repeat: no-repeat;
-    background-position: center;
-  
-}
+    background: url(https://i.postimg.cc/526FPxcb/image.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      width: 40%;
+      height: 100vh;
+      margin-top: 150px;
+  }
 
 .logo-section {
     display: flex;
